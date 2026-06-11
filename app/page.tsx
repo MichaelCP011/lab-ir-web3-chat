@@ -80,12 +80,12 @@ export default function Home() {
         </div>
         
         <div className="flex gap-2">
-          <input 
+          <input
             type="text" 
             value={input}
             onChange={(e) => setInput(e.target.value)}
             placeholder="Ketik pesanmu..." 
-            className="flex-1 border border-gray-300 rounded-md px-4 py-2"
+            className="flex-1 border border-gray-300 rounded-md px-4 py-2 text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-green-500"
           />
           <button 
             onClick={sendMessage}
